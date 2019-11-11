@@ -1,0 +1,15 @@
+package com.tester.DesignPatternTest;
+
+/**
+ * @program: Test-For-HappyFarm
+ * @description: Test the iterator pattern.
+ * @author: Yifan Ye
+ * @create: 2019/11/11
+ **/
+public class IteratorTest
+{
+    public static void main(String[] args)
+    {
+        System.out.println("no iterator pattern test");
+    }
+}
