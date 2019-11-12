@@ -62,7 +62,7 @@ public class BuilderTest {
 
 ### 测试结果
 
-![image-20191112104346868](img/builder.png)
+![image-20191112104346868](img/Builder.png)
 
 
 
