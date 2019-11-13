@@ -18,7 +18,14 @@ public class ObserverTest
 {
     public static void main(String[] args)
     {
-        System.out.println("\n\n-------------Observer Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Observer]Pattern —————————————-------------------------------------————");
+        System.out.println("AnimalFactory: run() :  Return the animal which the parameter is.");
+        System.out.println("AnimalMonitor : AnimalMonitor() :  The developer of the AnimalMonitor class.");
+        System.out.println("WarningLight : WarningLight() :  Extends the Observer class, one of the observers.");
+        System.out.println("Telegraph : Telegraph() :  Extends the Observer class, one of the observers.");
+        System.out.println("Telephone : Telephone() :  Extends the Observer class, one of the observers.");
+        System.out.println("");
+
         AnimalFactory animalFactory = new AnimalFactory();
         Animal chicken = animalFactory.run("Chicken");
         AnimalMonitor monitor = new AnimalMonitor();
@@ -28,5 +35,7 @@ public class ObserverTest
         new Telephone(monitor);
 
         monitor.animalRunAway(chicken);
+
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }

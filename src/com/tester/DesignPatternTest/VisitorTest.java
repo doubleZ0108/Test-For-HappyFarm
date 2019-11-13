@@ -12,7 +12,10 @@ import com.processing.PastureProcessingFactory;
  **/
 public class VisitorTest {
     static public void main(String[] args){
-        System.out.println("\n\n-------------Visitor Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Visitor]Pattern —————————————-------------------------------------————");
+        System.out.println("Machine : setState() :  Set an the state of this machine.");
+        System.out.println("Machine : accept() :  Accept the visit of a visitor and function accordingly.");
+        System.out.println("");
 
         FarmProcessingFactory farmProcessingFactory = new FarmProcessingFactory();
         PastureProcessingFactory pastureProcessingFactory = new PastureProcessingFactory();
