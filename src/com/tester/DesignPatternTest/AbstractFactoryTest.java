@@ -45,5 +45,7 @@ public class AbstractFactoryTest {
         System.out.println("=== Set environment for pasture processing factory:");
         pastureProcessingFactory.setEnvironment(new InitialEnvironment(15, 15));
         pastureProcessingFactory.handle();
+
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }
