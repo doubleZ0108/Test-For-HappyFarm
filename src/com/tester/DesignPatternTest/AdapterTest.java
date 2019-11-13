@@ -6,7 +6,7 @@ import com.pasture.Factory.AnimalFactory;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test for adapter pattern
+ * @description: Add modified test for adapter pattern
  * @author: Yu Liu
  * @create: 2019/11/13
  **/

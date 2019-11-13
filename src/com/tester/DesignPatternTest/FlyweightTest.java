@@ -8,12 +8,18 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the flyweight pattern.
+ * @description: Add modified test the flyweight pattern.
  * @author: Yimin Li
  * @create: 2019/11/12
  **/
 public class FlyweightTest {
     public static void main(String[] args) {
+        System.out.println("—————————————-------------------------------------———— Test[Flyweight Factory]Pattern —————————————-------------------------------------————");
+        System.out.println("FarmManager : FarmManager() :  create a farm manager.");
+        System.out.println("FarmManager : seeding(PotatoSeed.class) :  plant a potato in the field.");
+        System.out.println("FarmManager : giveFertilizer(0, Fertilizer.class) :  put the fertilizer to the field");
+        
+        
         RepositoryProxy.Instance();
         RepositoryProxy.Instance();
 
@@ -45,8 +51,6 @@ public class FlyweightTest {
 
 
         fm.seeding(PotatoSeed.class);
-        System.out.println("\n\n-------------Flyweight Test-----------");
-        System.out.println("Fertilizers are using flyweight pattern which generate only one instance for each type of fertilizer.");
         while(true){
             try {
                 Scanner scanner = new Scanner(System.in);
@@ -65,7 +69,7 @@ public class FlyweightTest {
                 System.out.println("Please enter an Integer");
             }
         }
-
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
 
     }
 }

@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the decorator pattern.
+ * @description: Add modified test the decorator pattern.
  * @author: Yimin Li
  * @create: 2019/11/12
  **/
