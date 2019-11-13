@@ -157,11 +157,11 @@ public class ChainOfResponsibilityTest {
 
 ### 测试结果（截图）
 
-![](/Users/sTern/Downloads/EE_Study/3.0/软件架构设计/test/5+7testPic/5-01.png)
+![ChainOfResponsibility-1](img/ChainOfResponsibility-01.png)
 
-![](/Users/sTern/Downloads/EE_Study/3.0/软件架构设计/test/5+7testPic/5-02.png)
+![ChainOfResponsibility-2](img/ChainOfResponsibility-02.png)
 
-![](/Users/sTern/Downloads/EE_Study/3.0/软件架构设计/test/5+7testPic/5-03.png)
+![ChainOfResponsibility-3](img/ChainOfResponsibility-03.png)
 
 
 
