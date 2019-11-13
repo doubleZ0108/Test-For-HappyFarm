@@ -23,6 +23,13 @@ public class CommandTest {
        *
        * @return : void
        **/
+    System.out.println("—————————————-------------------------------------———— Test[Abstract Factory]Pattern —————————————-------------------------------------————");
+    System.out.println("RepositoryProxy : Instance() :  Get an instance of the repositoryProxy.");
+    System.out.println("RepositoryProxy : add() :  Add some seed into the repository.");
+    System.out.println("FarmManager : getInstance() :  Get the farm manager as an singleton.");
+    System.out.println("FarmManager : seeding() :  Let the farm manager to plan some seed into the farm.");
+    System.out.println("FarmManager : giveFertilizer() :  Let the farm manager to give some fertilizer into the farm.");
+    System.out.println("FarmManager : harvest() :  Let the farm manager harvest from the farm.");
     RepositoryProxy.Instance().add(CornSeed.class, 100);
     RepositoryProxy.Instance().add(PotatoSeed.class, 100);
     RepositoryProxy.Instance().add(WheatSeed.class, 100);
@@ -53,5 +60,6 @@ public class CommandTest {
       System.out.println("Now it is time to harvest!");
       farmManager.harvest(index);
     }
+    System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
   }
 }

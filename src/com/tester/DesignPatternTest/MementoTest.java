@@ -15,7 +15,12 @@ import com.shop.repository.RepositoryProxy;
 
 public class MementoTest {
     public static void main(String[] args) {
-        System.out.println("\n\n-------------Memento Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Memento]Pattern —————————————-------------------------------------————");
+        System.out.println("FarmManager : saveFieldStatus() : Saving the status of all plant in field as a memento");
+        System.out.println("FarmManager : showAllFieldMementos() : Showing information of all memento");
+        System.out.println("FarmManager : seeding() : Planting seeds");
+        System.out.println("FarmManager : restore() : Restoring status to specified memento");
+        System.out.println("");
         FarmManager fm=FarmManager.getInstance();
         System.out.println("\nSave the status at the beginning.");
         RepositoryProxy.Instance().add(CornSeed.class, 100);
@@ -39,5 +44,6 @@ public class MementoTest {
         fm.restore(1);
         System.out.println("Restore the first status");
         fm.restore(0);
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }
