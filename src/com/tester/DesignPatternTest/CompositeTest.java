@@ -3,7 +3,7 @@ package com.tester.DesignPatternTest;
 /**
  * @program: Test-For-HappyFarm
  * @description: Test of the composite pattern.
- * @author: stern
+ * @author: Kainxin Chen
  * @create: 2019/11/13
  **/
 public class CompositeTest {
