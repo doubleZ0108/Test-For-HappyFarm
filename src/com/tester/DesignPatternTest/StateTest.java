@@ -16,7 +16,7 @@ import java.util.Random;
 /**
  * @program: Test-For-HappyFarm
  * @description: Add modified test for state pattern
- * @author: Yimo Liu
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class StateTest {

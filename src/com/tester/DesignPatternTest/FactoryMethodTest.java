@@ -8,7 +8,7 @@ import com.pasture.Sheep;
 /**
  * @program: Test-For-HappyFarm
  * @description: Add modified the test class for Factory Method
- * @author: saturn
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/12
  **/
 public class FactoryMethodTest {
