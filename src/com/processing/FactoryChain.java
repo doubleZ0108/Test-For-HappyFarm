@@ -11,6 +11,7 @@ public class FactoryChain implements Process {
     public FactoryChain() {
         chains = new ArrayList<>();
     }
+    public void setIndex(int index) { this.index = index; }
 
     @Override
     public void doProcess(Request request, Response response, FactoryChain chain) {
