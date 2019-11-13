@@ -46,9 +46,7 @@ public class FlyweightTest {
 
 ### 测试结果（截图）
 
-![Flyweight](C:\Users\stone\Desktop\软件架构\测试作业\Flyweight.png)
-
-
+![Flyweight.png](https://github.com/doubleZ0108/Test-For-HappyFarm/blob/master/doc/img/Flyweight.png?raw=true)
 
 ### 评分
 
