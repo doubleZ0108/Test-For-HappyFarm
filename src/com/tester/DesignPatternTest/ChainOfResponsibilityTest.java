@@ -12,7 +12,7 @@ import java.util.Scanner;
 /**
  * @program: Test-For-HappyFarm
  * @description: Another test of Chain of Responsibility pattern.
- * @author: stern
+ * @author: Kainxin Chen
  * @create: 2019/11/13
  **/
 public class ChainOfResponsibilityTest {
