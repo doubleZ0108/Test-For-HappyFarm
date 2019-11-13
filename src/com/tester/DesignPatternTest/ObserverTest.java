@@ -6,6 +6,8 @@ import com.pasture.Observer.AnimalMonitor;
 import com.pasture.Observer.Telegraph;
 import com.pasture.Observer.Telephone;
 import com.pasture.Observer.WarningLight;
+import com.processing.FarmProcessingFactory;
+import com.processing.PastureProcessingFactory;
 import com.shop.repository.RepositoryProxy;
 
 /**
@@ -19,14 +21,11 @@ public class ObserverTest
     public static void main(String[] args)
     {
         System.out.println("\n\n-------------Observer Test-------------");
-        AnimalFactory animalFactory = new AnimalFactory();
-        Animal chicken = animalFactory.run("Chicken");
-        AnimalMonitor monitor = new AnimalMonitor();
-
-        new WarningLight(monitor);
-        new Telegraph(monitor);
-        new Telephone(monitor);
-
-        monitor.animalRunAway(chicken);
+        FarmProcessingFactory farmProcessingFactory = new FarmProcessingFactory();
+        PastureProcessingFactory pastureProcessingFactory = new PastureProcessingFactory();
+        System.out.println("Check the State of FarmProcessingFactory's Machines:");
+        farmProcessingFactory.getMachinesState();
+        System.out.println("Check the State of PastureProcessingFactory's Machines:");
+        pastureProcessingFactory.getMachinesState();
     }
 }
