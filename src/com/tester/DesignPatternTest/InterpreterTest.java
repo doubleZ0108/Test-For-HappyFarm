@@ -13,6 +13,7 @@ public class InterpreterTest
 {
     public static void main(String[] args)
     {
+        System.out.println("\n\n-------------Interpreter Test-------------");
         Expression oneLivestock = Interpreter.getLivestockExpression();
         Expression allLivestock = Interpreter.getAllLivestockExpression();
 
