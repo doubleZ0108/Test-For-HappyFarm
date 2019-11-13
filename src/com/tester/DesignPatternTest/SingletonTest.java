@@ -18,7 +18,9 @@ public class SingletonTest {
        *
        * @return : void
        **/
-
+    System.out.println("—————————————-------------------------------------———— Test[Abstract Factory]Pattern —————————————-------------------------------------————");
+    System.out.println("FarmManager : getInstance() :  Get the farm manager as an singleton.");
+    System.out.println("SingleStore : getSingleStore() :  Get the store as an singleton.");
     System.out.println("First we get 2 instances of farmManager");
     FarmManager farmManager = FarmManager.getInstance();
     FarmManager farmManager1 = FarmManager.getInstance();
@@ -36,5 +38,6 @@ public class SingletonTest {
     }else {
       System.out.println("Singleton test failed!");
     }
+    System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
   }
 }

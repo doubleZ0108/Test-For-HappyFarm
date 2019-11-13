@@ -21,7 +21,12 @@ public class BuilderTest {
        *
        * @return : void
        **/
-    System.out.println("----------  Builder Test----------");
+    System.out.println("—————————————-------------------------------------———— Test[Abstract Factory]Pattern —————————————-------------------------------------————");
+    System.out.println("RepositoryProxy : Instance() :  Get a new instance of repositoryProxy.");
+    System.out.println("RepositoryProxy : add() :  Add some plants into the repository.");
+    System.out.println("Employee : createBuyOrder() :  Create the order for the user.");
+
+    System.out.println("");
     System.out.println("how many of the following type of plant do you want?");
     Map<String,Class> orderMap = new HashMap<>();
     orderMap.put("Egg",Egg.class);
@@ -49,5 +54,6 @@ public class BuilderTest {
       }
     }
     Employee.createBuyOrder(orderDetailMap);
+    System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
   }
 }
