@@ -35,7 +35,7 @@ public class BridgeTest {
 
 ### 测试结果
 
-<img src="C:/Users/DELL/Desktop/designpattern/dp/Test-For-HappyFarm/doc/img/Bridge.png" alt="BridgeTest" style="zoom:150%;" />
+<img src="../doc/img/Bridge.png" alt="BridgeTest" style="zoom:150%;" />
 
 
 
