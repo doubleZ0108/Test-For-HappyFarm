@@ -22,7 +22,12 @@ import java.util.Random;
 public class StateTest {
     public static void main(String[] args) throws CloneNotSupportedException {
 
-        System.out.println("-------------State Test of factory-------------");
+        System.out.println("—————————————-------------------------------------———— Test[State]Pattern —————————————-------------------------------------————");
+        System.out.println("FarmProcessingFactory : setEnvironment() :  Set an instance of environment for this farm processing factory.");
+        System.out.println("FarmProcessingFactory : getMachinesState() :  Get the state information of machines of this farm.");
+        System.out.println("OrderFactory : getOrder() :  Get an order from the order factory.");
+        System.out.println("Order : createOrder() :  Create an instance of this order.");
+        System.out.println("");
 
         FarmProcessingFactory farmProcessingFactory = new FarmProcessingFactory();
         PastureProcessingFactory pastureProcessingFactory = new PastureProcessingFactory();
