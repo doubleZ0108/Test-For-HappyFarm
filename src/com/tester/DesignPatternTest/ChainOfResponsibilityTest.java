@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Another test of Chain of Responsibility pattern.
+ * @description: Add another modified test of Chain of Responsibility pattern.
  * @author: Kainxin Chen
  * @create: 2019/11/13
  **/

@@ -9,7 +9,7 @@ import com.pasture.Strategy.Sing;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
+ * @description: Add modified test for strategy test
  * @author: Di
  * @create: 2019/11/13
  **/

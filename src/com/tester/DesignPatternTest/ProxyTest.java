@@ -7,7 +7,7 @@ import com.farm.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
+ * @description: Add modified test for proxy pattern
  * @author: Yimo Liu
  * @create: 2019/11/13
  **/

@@ -10,7 +10,7 @@ import com.shop.repository.RepositoryProxy;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the observer pattern.
+ * @description: Add modified test for the observer pattern.
  * @author: Yifan Ye
  * @create: 2019/11/11
  **/

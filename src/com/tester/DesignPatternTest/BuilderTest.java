@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test this group's builder pattern
+ * @description: Add modified test this group's builder pattern
  * @author: Zijian Zhang
  * @create: 2019/11/12
  **/

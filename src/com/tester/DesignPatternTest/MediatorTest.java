@@ -6,7 +6,7 @@ import com.shop.employee.PotatoSeed;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
+ * @description: Add modified test for mediator
  * @author: Di
  * @create: 2019/11/13
  **/

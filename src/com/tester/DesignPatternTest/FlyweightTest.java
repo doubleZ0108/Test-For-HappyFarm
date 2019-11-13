@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the flyweight pattern.
+ * @description: Add modified test the flyweight pattern.
  * @author: Yimin Li
  * @create: 2019/11/12
  **/
