@@ -18,7 +18,13 @@ import java.util.Scanner;
  **/
 public class DecoratorTest {
     static public void main(String[] args){
-        System.out.println("\n\n-------------Decorator Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Decorator Factory]Pattern —————————————-------------------------------------————");
+        System.out.println("animalFactory : run() :  create an animal.");
+        System.out.println("Sheep : beSheared() :  get the wool from the sheep.");
+        System.out.println("GreenWoolDecorator : GreenWoolDecorator(Wool w) :  dye the wool to green");
+        System.out.println("BlueWoolDecorator : BlueWoolDecorator(Wool w) :  dye the wool to blue");
+        System.out.println("RedWoolDecorator : RedWoolDecorator(Wool w) :  dye the wool to red");
+        
         AnimalFactory animalFactory = new AnimalFactory();
         Animal sheep = animalFactory.run("Sheep");
 
@@ -27,7 +33,6 @@ public class DecoratorTest {
         System.out.println("You have 3 chances to dye the wool.");
         int color;
 
-        //The first time
         for(int i = 1;i<=3;i++){
             while(true) {
                 try {
@@ -55,6 +60,6 @@ public class DecoratorTest {
             }
         }
         System.out.println(normalWool.getDescription());
-
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }
