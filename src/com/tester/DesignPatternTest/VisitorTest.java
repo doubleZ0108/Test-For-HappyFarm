@@ -1,6 +1,7 @@
 package com.tester.DesignPatternTest;
 
 import com.processing.FarmProcessingFactory;
+import com.processing.InitialEnvironment;
 import com.processing.MachineDisplayVisitor;
 import com.processing.PastureProcessingFactory;
 
@@ -19,6 +20,15 @@ public class VisitorTest {
 
         FarmProcessingFactory farmProcessingFactory = new FarmProcessingFactory();
         PastureProcessingFactory pastureProcessingFactory = new PastureProcessingFactory();
+        for(int i = 0;i<15;i++) {
+            farmProcessingFactory.addMachine();
+            pastureProcessingFactory.addMachine();
+        }
+        farmProcessingFactory.setEnvironment(new InitialEnvironment(15, 15));
+        farmProcessingFactory.handle();
+        pastureProcessingFactory.setEnvironment(new InitialEnvironment(15, 15));
+        pastureProcessingFactory.handle();
+
         System.out.println("No.0 Machine in FarmProcessingFactory is damaged");
         farmProcessingFactory.machines.get(0).setState(1);
         farmProcessingFactory.machines.get(0).accept(new MachineDisplayVisitor());
