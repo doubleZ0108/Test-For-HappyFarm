@@ -8,8 +8,8 @@ import com.shop.repository.RepositoryProxy;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: test memento pattern
- * @author: Xuefei Lv
+ * @description: Add modified test memento pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 

@@ -5,9 +5,9 @@ import com.processing.InitialEnvironment;
 import com.processing.PastureProcessingFactory;
 
 /**
- * @program: 10
+ * @program: Test-For-HappyFarm
  * @description: Add modified test for AbstractFactory.
- * @author: Zhe Zhang
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/11
  **/
 public class AbstractFactoryTest {

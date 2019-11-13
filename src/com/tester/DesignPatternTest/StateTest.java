@@ -15,8 +15,8 @@ import java.util.Random;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
- * @author: Yimo Liu
+ * @description: Add modified test for state pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class StateTest {
@@ -69,6 +69,7 @@ public class StateTest {
         Order order3 = orderFactory.getOrder("SALE");
         order3.createOrder(Corn.class, 2, 5.00);
 
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 
 }

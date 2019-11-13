@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Another test of Chain of Responsibility pattern.
- * @author: Kainxin Chen
+ * @description: Add another modified test of Chain of Responsibility pattern.
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class ChainOfResponsibilityTest {
@@ -26,77 +26,86 @@ public class ChainOfResponsibilityTest {
 
 
         System.out.println("Please first choice the stack of...");
+        String temp;
         int stack = 0;
         RepositoryProxy.Instance();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Chicken: ");
         while(true) {
-            if(sc.hasNextInt()) {
-                stack = sc.nextInt();
-                if(stack > 0) {
-                    RepositoryProxy.Instance().add(Chicken.class, stack);
-                    break;
-                }
-                else {
-                    System.out.println("The stack must more than 0.");
-                    continue;
-                }
+            temp = sc.nextLine();
+            try {
+                stack = Integer.parseInt(temp);
             }
-            Scanner temp = new Scanner(System.in);
-            temp.next();
-            System.out.println("The stack must be a int number.");
+            catch(NumberFormatException e) {
+                System.out.println("Invalid input");
+                continue;
+            }
+
+            if(stack > 0) {
+                RepositoryProxy.Instance().add(Chicken.class, stack);
+                break;
+            }
+            else {
+                System.out.println("The stack must more than 0.");
+            }
         }
         System.out.println("Wheat: ");
         while(true) {
-            if(sc.hasNextInt()) {
-                stack = sc.nextInt();
-                if(stack > 0) {
-                    RepositoryProxy.Instance().add(Wheat.class, stack);
-                    break;
-                }
-                else {
-                    System.out.println("The stack must more than 0.");
-                    continue;
-                }
+            temp = sc.nextLine();
+            try {
+                stack = Integer.parseInt(temp);
             }
-            Scanner temp = new Scanner(System.in);
-            temp.next();
-            System.out.println("The stack must be a int number.");
+            catch(NumberFormatException e) {
+                System.out.println("Invalid input");
+                continue;
+            }
+
+            if(stack > 0) {
+                RepositoryProxy.Instance().add(Wheat.class, stack);
+                break;
+            }
+            else {
+                System.out.println("The stack must more than 0.");
+            }
         }
         System.out.println("Egg: ");
         while(true) {
-            if(sc.hasNextInt()) {
-                stack = sc.nextInt();
-                if(stack > 0) {
-                    RepositoryProxy.Instance().add(Egg.class, stack);
-                    break;
-                }
-                else {
-                    System.out.println("The stack must more than 0.");
-                    continue;
-                }
+            temp = sc.nextLine();
+            try {
+                stack = Integer.parseInt(temp);
             }
-            Scanner temp = new Scanner(System.in);
-            temp.next();
-            System.out.println("The stack must be a int number.");
+            catch(NumberFormatException e) {
+                System.out.println("Invalid input");
+                continue;
+            }
+
+            if(stack > 0) {
+                RepositoryProxy.Instance().add(Egg.class, stack);
+                break;
+            }
+            else {
+                System.out.println("The stack must more than 0.");
+            }
         }
         System.out.println("Flour: ");
         while(true) {
-            if(sc.hasNextInt()) {
-                stack = sc.nextInt();
-                if(stack > 0) {
-                    RepositoryProxy.Instance().add(Flour.class, stack);
-                    break;
-                }
-                else {
-                    System.out.println("The stack must more than 0.");
-                    continue;
-                }
+            temp = sc.nextLine();
+            try {
+                stack = Integer.parseInt(temp);
             }
-            Scanner temp = new Scanner(System.in);
-            temp.next();
-            System.out.println("The stack must be a int number.");
+            catch(NumberFormatException e) {
+                System.out.println("Invalid input");
+                continue;
+            }
+
+            if(stack > 0) {
+                RepositoryProxy.Instance().add(Flour.class, stack);
+                break;
+            }
+            else {
+                System.out.println("The stack must more than 0.");
+            }
         }
 
 
@@ -120,10 +129,10 @@ public class ChainOfResponsibilityTest {
                 request.setRequest(requestName);
                 int amount = 0;
                 while (true) {
-                    Scanner temp = new Scanner(System.in);
+                    Scanner scanner = new Scanner(System.in);
                     System.out.println("The amount:");
-                    if (temp.hasNextInt()) {
-                        amount = temp.nextInt();
+                    if (scanner.hasNextInt()) {
+                        amount = scanner.nextInt();
                         if (amount > 0) {
                             request.setNum(amount);
                             request.setRepositoryProxy(RepositoryProxy.Instance());

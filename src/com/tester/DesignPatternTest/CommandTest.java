@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test this group's command pattern
- * @author: Zijian Zhang
+ * @description: Add modified test this group's command pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/12
  **/
 public class CommandTest {

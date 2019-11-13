@@ -8,8 +8,8 @@ import java.util.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test this group's builder pattern
- * @author: Zijian Zhang
+ * @description: Add modified test this group's builder pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/12
  **/
 public class BuilderTest {

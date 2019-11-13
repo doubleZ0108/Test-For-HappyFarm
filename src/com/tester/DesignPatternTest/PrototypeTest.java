@@ -4,8 +4,8 @@ import com.processing.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: test propotype pattern
- * @author: Xuefei Lv
+ * @description: Add modified test propotype pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 

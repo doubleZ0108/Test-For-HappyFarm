@@ -5,8 +5,8 @@ import com.pasture.Interpreter.Interpreter;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the interpreter pattern.
- * @author: Yifan Ye
+ * @description: Add modified test the interpreter pattern.
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/11
  **/
 public class InterpreterTest

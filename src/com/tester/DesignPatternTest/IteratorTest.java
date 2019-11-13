@@ -2,8 +2,8 @@ package com.tester.DesignPatternTest;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the iterator pattern.
- * @author: Yifan Ye
+ * @description: Add modified test the iterator pattern.
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/11
  **/
 public class IteratorTest

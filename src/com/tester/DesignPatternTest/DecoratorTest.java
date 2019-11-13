@@ -12,8 +12,8 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the decorator pattern.
- * @author: Yimin Li
+ * @description: Add modified test the decorator pattern.
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/12
  **/
 public class DecoratorTest {

@@ -7,8 +7,8 @@ import com.farm.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
- * @author: Yimo Liu
+ * @description: Add modified test for proxy pattern
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class ProxyTest {
@@ -72,6 +72,7 @@ public class ProxyTest {
         fm.showAllFieldMementos();
         fm.restore(1);
         fm.restore(0);
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
 
     }
 
