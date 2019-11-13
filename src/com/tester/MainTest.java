@@ -46,11 +46,22 @@ public class MainTest
 
         boolean flag = true;
         int opCode;
+        String inputString;
+
         Scanner input = new Scanner(System.in);
 
         do{
             display_interface();
-            opCode = input.nextInt();
+            inputString = input.nextLine();
+            try
+            {
+                opCode = Integer.parseInt(inputString);
+            }catch (NumberFormatException e)
+            {
+                System.out.println("invalid input!");
+                continue;
+            }
+
 
 
             if(opCode == 0){
