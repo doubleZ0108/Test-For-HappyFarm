@@ -18,6 +18,7 @@ public class ObserverTest
 {
     public static void main(String[] args)
     {
+        System.out.println("\n\n-------------Observer Test-------------");
         AnimalFactory animalFactory = new AnimalFactory();
         Animal chicken = animalFactory.run("Chicken");
         AnimalMonitor monitor = new AnimalMonitor();
