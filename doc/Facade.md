@@ -49,7 +49,7 @@ public class FacadeTest {
 
 ### 测试结果（截图）
 
-![Facade](C:\Users\stone\Desktop\软件架构\测试作业\Facade.png)
+![Facade.png](https://github.com/doubleZ0108/Test-For-HappyFarm/blob/master/doc/img/Facade.png?raw=true)
 
 ### 评分
 

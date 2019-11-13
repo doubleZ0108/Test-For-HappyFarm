@@ -59,7 +59,7 @@ public class DecoratorTest {
 
 ### 测试结果（截图）
 
-![Decorator](C:\Users\stone\Desktop\软件架构\测试作业\Decorator.png)
+![Decorator.png](https://github.com/doubleZ0108/Test-For-HappyFarm/blob/master/doc/img/Decorator.png?raw=true)
 
 ### 评分
 
