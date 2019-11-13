@@ -35,5 +35,6 @@ public class VisitorTest {
         System.out.println("No.13 Machine in PastureProcessingFactory is damaged");
         pastureProcessingFactory.machines.get(13).setState(1);
         pastureProcessingFactory.machines.get(13).accept(new MachineDisplayVisitor());
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }

@@ -72,6 +72,7 @@ public class ProxyTest {
         fm.showAllFieldMementos();
         fm.restore(1);
         fm.restore(0);
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
 
     }
 
