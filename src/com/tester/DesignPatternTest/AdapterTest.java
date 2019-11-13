@@ -7,7 +7,7 @@ import com.pasture.Factory.AnimalFactory;
 /**
  * @program: Test-For-HappyFarm
  * @description: Add modified test for adapter pattern
- * @author: Yu Liu
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class AdapterTest {

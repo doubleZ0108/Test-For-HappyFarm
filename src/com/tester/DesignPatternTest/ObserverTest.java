@@ -11,7 +11,7 @@ import com.shop.repository.RepositoryProxy;
 /**
  * @program: Test-For-HappyFarm
  * @description: Add modified test for the observer pattern.
- * @author: Yifan Ye
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/11
  **/
 public class ObserverTest

@@ -8,7 +8,7 @@ import com.farm.*;
 /**
  * @program: Test-For-HappyFarm
  * @description: Add modified test for proxy pattern
- * @author: Yimo Liu
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/13
  **/
 public class ProxyTest {

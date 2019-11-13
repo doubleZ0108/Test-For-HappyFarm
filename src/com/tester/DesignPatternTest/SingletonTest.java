@@ -6,7 +6,7 @@ import com.shop.store.SingleStore;
 /**
  * @program: Test-For-HappyFarm
  * @description: To test this group's singleton pattern
- * @author: Zijian Zhang
+ * @author: Group for testing HappyFarm
  * @create: 2019/11/12
  **/
 public class SingletonTest {
