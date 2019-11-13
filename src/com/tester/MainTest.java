@@ -42,15 +42,26 @@ public class MainTest
         System.out.print("Which design pattern do you want to test? [0 to quit]: ");
     }
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException, ClassNotFoundException {
 
         boolean flag = true;
         int opCode;
+        String inputString;
+
         Scanner input = new Scanner(System.in);
 
         do{
             display_interface();
-            opCode = input.nextInt();
+            inputString = input.nextLine();
+            try
+            {
+                opCode = Integer.parseInt(inputString);
+            }catch (NumberFormatException e)
+            {
+                System.out.println("invalid input!");
+                continue;
+            }
+
 
 
             if(opCode == 0){
@@ -71,10 +82,10 @@ public class MainTest
                         BuilderTest.main(new String[]{});
                         break;
                     case 5:
-                        ChainOfResponsibilityTest.main(new String[]{});
+//                        ChainOfResponsibilityTest.main(new String[]{});
                         break;
                     case 6:
-//                        CommandTest.main(new String[]{});
+                        CommandTest.main(new String[]{});
                         break;
                     case 7:
 //                        CompositeTest.main(new String[]{});
