@@ -12,12 +12,19 @@ import java.util.Scanner;
 /**
  * @program: Test-For-HappyFarm
  * @description: Another test of Chain of Responsibility pattern.
- * @author: stern
+ * @author: Kainxin Chen
  * @create: 2019/11/13
  **/
 public class ChainOfResponsibilityTest {
     public static void main(String[] args) {
-        System.out.println("\n\n-------------Chain of Responsibility Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Chain of Responsibility]Pattern —————————————-------------------------------------————");
+        System.out.println("AbstractProcessingFactory : doProcess() :  Commit a request to the chain and waiting for the certain factory to answer.");
+        System.out.println("FarmProcessingFactory : doProcess() :  FarmProcessingFactory handle a request.");
+        System.out.println("PastureProcessingFactory : doProcess() :  PastureProcessingFactory handle a request.");
+        System.out.println("Request : Request() :  Generate a request from the user which will be commit to the responsibility chain.");
+        System.out.println("");
+
+
         System.out.println("Please first choice the stack of...");
         int stack = 0;
         RepositoryProxy.Instance();
@@ -134,6 +141,7 @@ public class ChainOfResponsibilityTest {
                 System.out.println("We cannot make this.");
             }
         }
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
 
     }
 }
