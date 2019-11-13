@@ -82,13 +82,13 @@ public class MainTest
                         BuilderTest.main(new String[]{});
                         break;
                     case 5:
-//                        ChainOfResponsibilityTest.main(new String[]{});
+                        ChainOfResponsibilityTest.main(new String[]{});
                         break;
                     case 6:
                         CommandTest.main(new String[]{});
                         break;
                     case 7:
-//                        CompositeTest.main(new String[]{});
+                        CompositeTest.main(new String[]{});
                         break;
                     case 8:
                         DecoratorTest.main(new String[]{});
@@ -133,7 +133,7 @@ public class MainTest
                         StrategyTest.main(new String[]{});
                         break;
                     case 22:
-//                        TemplateMethodTest.main(new String[]{});
+                        TemplateMethodTest.main(new String[]{});
                         break;
                     case 23:
                         VisitorTest.main(new String[]{});
