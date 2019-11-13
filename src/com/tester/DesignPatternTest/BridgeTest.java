@@ -4,7 +4,7 @@ import com.pasture.Bridge.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: test for bridge pattern
+ * @description: Add modified test for bridge pattern
  * @author: Yu Liu
  * @create: 2019/11/13
  **/

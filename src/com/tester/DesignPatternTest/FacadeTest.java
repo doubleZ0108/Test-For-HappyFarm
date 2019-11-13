@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * @program: Test-For-HappyFarm
- * @description: Test the facade pattern.
+ * @description: Add modified test the facade pattern.
  * @author: Yimin Li
  * @create: 2019/11/12
  **/

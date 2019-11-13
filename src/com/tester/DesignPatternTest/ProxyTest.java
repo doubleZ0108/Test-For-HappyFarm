@@ -7,13 +7,21 @@ import com.farm.*;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
+ * @description: Add modified test for proxy pattern
  * @author: Yimo Liu
  * @create: 2019/11/13
  **/
 public class ProxyTest {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
+        System.out.println("—————————————-------------------------------------———— Test[{Proxy]Pattern —————————————-------------------------------------————");
+        System.out.println("Employee : createBuyOrder() :  Create an order for an employee.");
+        System.out.println("FarmManager : seeding() :  Sow some seeds.");
+        System.out.println("FarmManager : saveFieldStatus() :  Save the current status of the field.");
+        System.out.println("FarmManager : showAllFieldMementos() :  Show all field mementos.");
+        System.out.println("FarmManager : giveFertilizer() :  Use fertilizer on some fields.");
+        System.out.println("FarmManager : harvest() :  Harvest plants on this field.");
+        System.out.println("");
 
         SingleStore store = SingleStore.getSingleStore();
         RepositoryProxy.Instance().attach(store);

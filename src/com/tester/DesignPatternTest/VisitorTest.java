@@ -6,13 +6,16 @@ import com.processing.PastureProcessingFactory;
 
 /**
  * @program: Test-For-HappyFarm
- * @description:
+ * @description: Add modified test for visitor pattern
  * @author: Yimo Liu
  * @create: 2019/11/13
  **/
 public class VisitorTest {
     static public void main(String[] args){
-        System.out.println("\n\n-------------Visitor Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Visitor]Pattern —————————————-------------------------------------————");
+        System.out.println("Machine : setState() :  Set an the state of this machine.");
+        System.out.println("Machine : accept() :  Accept the visit of a visitor and function accordingly.");
+        System.out.println("");
 
         FarmProcessingFactory farmProcessingFactory = new FarmProcessingFactory();
         PastureProcessingFactory pastureProcessingFactory = new PastureProcessingFactory();
