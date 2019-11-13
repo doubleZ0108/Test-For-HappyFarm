@@ -8,7 +8,7 @@ Composite模式属于结构型模式的一种，该模式将对象组合成树�
 
 在该模式的实现中，类图如下：
 
-![](/Users/sTern/Downloads/EE_Study/3.0/软件架构设计/test/5+7testPic/7-00.png)
+![Composite-0](img/Composite-0.png)
 
 
 
@@ -30,7 +30,7 @@ Composite模式首先需要找准一个能够实现树型结构，能够体现�
 
 （注：没有考虑项目中其他任何类的交互情况，仅仅对Composite模式提出的改进类图思路。）
 
-![](/Users/sTern/Downloads/EE_Study/3.0/软件架构设计/test/5+7testPic/7-1.png)
+![Composite-1](img/Composite-1.png)
 
 ### 评分
 

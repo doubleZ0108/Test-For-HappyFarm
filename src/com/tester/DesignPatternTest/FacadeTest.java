@@ -12,7 +12,13 @@ import java.util.Scanner;
  **/
 public class FacadeTest {
     public static void main(String[] args) {
-        System.out.println("\n\n-------------Facade Test-------------");
+        System.out.println("—————————————-------------------------------------———— Test[Facade Factory]Pattern —————————————-------------------------------------————");
+
+        System.out.println("AnimalPooMaker : pooForCat() :  deal with the cat poo");
+        System.out.println("AnimalPooMaker : pooForChicken() :  deal with the chicken poo");
+        System.out.println("AnimalPooMaker : pooForSheep() :  deal with the sheep poo");
+
+
         AnimalPooMaker animalPooMaker = new AnimalPooMaker();
         int option;
         int quantity;
@@ -37,5 +43,7 @@ public class FacadeTest {
                 System.out.println("Please input an integer!");
             }
         }
+        
+        System.out.println("—————————————---------------------------------------------- End ————------—————————-------------------------------------————");
     }
 }
