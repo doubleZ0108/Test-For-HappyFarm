@@ -139,7 +139,7 @@ public class MainTest
                         VisitorTest.main(new String[]{});
                         break;
                     case 24:
-//                        NullObjectTest.ain(new String[]{});
+                        NullObjectTest.main(new String[]{});
                     default:
                         System.out.println("Invalid input!");
                         System.out.println("Please input again!");
